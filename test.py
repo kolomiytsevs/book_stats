@@ -34,12 +34,17 @@ def find_most_common_word(dictionary):
 
     print('\"', most_common_word, '\"', 'appears', largest, 'times in the text')
 
+
 find_most_common_word(di)
+
+
 def number_unique_words(dictionary):
     return len(dictionary)
 
+
 def word_count(wds):
     return len(wds)
+
 
 print(number_unique_words(di), 'unique words used in the book')
 
